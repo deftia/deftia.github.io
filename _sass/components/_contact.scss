@@ -1,0 +1,27 @@
+.contact {
+  background-color: $background-color;
+  overflow: auto;
+  color: $light-color;
+
+  .methods {
+    display: flex;
+    margin-left: -15px;
+    > .direct {
+      width: 50%;
+      padding: 0 15px;
+    }
+
+    > .contact-us-form {
+      width: 50%;
+      padding: 0 15px;
+
+      input[type="text"],input[type="email"], textarea {
+        width: 100%;
+        padding: 0.5em 1em;
+        border: none;
+        border-radius: 2px;
+        color: $dark-color;
+      }
+    }
+  }
+}

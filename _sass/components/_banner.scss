@@ -5,12 +5,12 @@
   color: $light-color;
   padding: 5em 0 4em;
 
-  > h2 {
+  h2 {
     font-size: 3em;
     font-weight: $normal-weight;
   }
 
-  > .intro {
+  .intro {
     font-size: 1.5em;
     font-weight: $light-weight;
     color: transparentize($light-color, 0.3);
