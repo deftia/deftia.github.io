@@ -7,9 +7,11 @@ nav {
     text-transform: uppercase;
     font-weight: $light-weight;
     letter-spacing: .05em;
+    margin-left: .5em;
 
     color: $light-color;
     text-decoration: none;
+    border-radius: 9999px;
 
     &:hover {
       color: $light-color;
@@ -21,7 +23,6 @@ nav {
 
     &.active, &:hover {
       background-color: $primary-color;
-      border-radius: 9999px;
     }
   }
 }
