@@ -1,0 +1,22 @@
+$primary-font: 'Source Sans Pro', sans-serif;
+
+$light-weight: 300;
+$normal-weight: 400;
+$bold-weight: 700;
+
+body {
+  font-family: $primary-font;
+}
+
+a {
+  color: $dark-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $dark-color;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $dark-color;
+  }
+}
