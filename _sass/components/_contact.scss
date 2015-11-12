@@ -1,7 +1,10 @@
 .contact {
-  background-color: $background-color;
+  @include inverse();
   overflow: auto;
-  color: $light-color;
+
+  h2 {
+    color: $light-color;
+  }
 
   .methods {
     display: flex;
@@ -14,12 +17,16 @@
     > .contact-us-form {
       width: 50%;
       padding: 0 15px;
+      > .caption {
+        font-style: italic;
+      }
 
-      input[type="text"],input[type="email"], textarea {
+      input[type="text"], input[type="email"], textarea {
         width: 100%;
         padding: 0.5em 1em;
         border: none;
         border-radius: 2px;
+        background-color: $light-color, 0.3;
         color: $dark-color;
       }
     }

@@ -1,5 +1,5 @@
 header {
-  background-color: $background-color;
+  @include inverse();
   overflow: auto;
   > .container {
     display: flex;

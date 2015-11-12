@@ -2,10 +2,11 @@
   overflow: auto;
   background-color: $background-color;
   text-align: center;
-  color: $light-color;
+  @include inverse();
   padding: 5em 0 4em;
 
   h2 {
+    color: $light-color;
     font-size: 3em;
     font-weight: $normal-weight;
   }
