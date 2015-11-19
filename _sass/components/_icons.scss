@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'deftia';
-    src: url('../font/deftia.svg?78688644#deftia') format('svg');
+    src: url('../font/deftia.svg?80056442#deftia') format('svg');
   }
 }
 */
@@ -54,5 +54,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-phone:before { content: '\e800'; } /* '' */
-.icon-mail:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e801'; } /* '' */
+.icon-users:before { content: '\e802'; } /* '' */
+.icon-cog-alt:before { content: '\e804'; } /* '' */
+.icon-bug:before { content: '\e805'; } /* '' */
