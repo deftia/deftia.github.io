@@ -5,7 +5,7 @@
 
     > .service {
       width: 33%;
-      @media(max-device-width: 375px) {
+      @media(max-device-width: $mobile-breakpoint) {
         width: auto;
       }
     }

@@ -4,6 +4,9 @@
   text-align: center;
   @include inverse();
   padding: 5em 0 4em;
+  @media(max-device-width: $mobile-breakpoint) {
+    padding: 0;
+  }
 
   h2 {
     color: $light-color;

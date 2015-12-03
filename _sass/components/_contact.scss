@@ -12,7 +12,7 @@
     margin-left: -15px;
     > .direct {
       width: 50%;
-      @media(max-device-width: 375px) {
+      @media(max-device-width: $mobile-breakpoint) {
         width: auto;
       }
       padding: 0 15px;
@@ -20,7 +20,7 @@
 
     > .contact-us-form {
       width: 50%;
-      @media(max-device-width: 375px) {
+      @media(max-device-width: $mobile-breakpoint) {
         width: auto;
       }
       padding: 0 15px;
