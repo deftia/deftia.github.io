@@ -1,9 +1,11 @@
 .banner {
   overflow: auto;
-  background-color: $background-color;
   text-align: center;
   @include inverse();
+  background-color: transparent;
   padding: 5em 0 4em;
+  position: relative;
+  z-index: 2;
   @media(max-device-width: $mobile-breakpoint) {
     padding: 0;
   }

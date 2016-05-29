@@ -1,6 +1,9 @@
 header {
   @include inverse();
+  background-color: transparent;
   overflow: auto;
+  position: relative;
+  z-index: 2;
   > .container {
     display: flex;
     justify-content: space-between;
