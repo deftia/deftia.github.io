@@ -1,19 +1,71 @@
 ---
 ---
-@import 'normalize.scss';
-@import 'colors.scss';
-@import 'typography.scss';
-@import 'general.scss';
+body {
+	overflow: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
 
-@import 'components/container.scss';
-@import 'components/icons.scss';
-@import 'components/header.scss';
-@import 'components/nav.scss';
-@import 'components/buttons.scss';
-@import 'components/banner.scss';
-@import 'components/footer.scss';
-@import 'components/contact.scss';
-@import 'components/service.scss';
-@import 'components/services.scss';
-@import 'components/thank-you.scss';
-@import 'components/particles.scss';
+#main-particle {
+  z-index: -1;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.nav {
+  padding: 30px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  a {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0px 10px;
+    color: #e8dddd;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.content {
+  &.full {
+    width: 100%;
+    min-height: 100vh;
+  }
+  &.center, .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.logo {
+  animation: b 3s forwards;
+  text-align: center;
+  user-select: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  .title {
+    font-weight: bold;
+  }
+  .subtitle {
+    margin-top: 5px;
+    font-size: 10px;
+    display: block;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+}
