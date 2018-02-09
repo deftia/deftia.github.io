@@ -1,4 +1,4 @@
 sass:
-  sass_dir: assets/sass
-source: src
+  sass_dir: ./assets/sass
+source: ./src
 exclude: ['elements.html', 'generic.html']
