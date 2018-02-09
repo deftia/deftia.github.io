@@ -15,6 +15,12 @@
 			}
 		}
 
+		&.thank-you {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+
 		> .inner {
 			a {
 				border-bottom-color: _palette(border);
